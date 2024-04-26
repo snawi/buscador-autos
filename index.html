@@ -10,16 +10,106 @@
   <body>
 
 
-    <h1>Buscador de autos</h1>
+    <h1 class="titulo">Buscador de autos</h1>
 
       <div class="contenedor">
 
-        <form id="Buscador">
+        <form class="formulario" id="buscador">
           <div class="row">
-            <div class="tres-columnas"></div>
+            <div class="cuatro-columnas">
+              <label for="marca">Marca</label>
+              <select class="seleccion" id="marca">
+                <option value="" disabled>Seleccione</option>
+                <option value="audi">audi</option>
+                <option value="bmw">bmw</option>
+                <option value="chevrolet">chevrolet</option>
+                <option value="susuki">susuki</option>
+
+              </select>
+            </div>
+
+
+            <div class="cuatro-columnas">
+              <label for="Año">Año</label>
+              <select class="seleccion" id="year">
+                <option value="">Seleccione</option>
+               </select>
+            </div>
+
+            <div class="cuatro-columnas">
+              <label for="minimo">Precio Min</label>
+              <select class="seleccion" id="minimo">
+                <option value="">Seleccione</option>
+                <option value="2000">2000</option>
+                <option value="3000">3000</option>
+                <option value="3000">3000</option>
+                <option value="2000">2000</option>
+                <option value="4000">4000</option>
+                <option value="5000">5000</option>
+              </select>
+            </div>
+
+            <div class="cuatro-columnas">
+              <label for="maximo">Precio Max</label>
+              <select class="seleccion" id="maximo">
+                <option value="" disabled>Seleccione</option>
+                <option value="1000">1000</option>
+                <option value="4000">4000</option>
+                <option value="3000">3000</option>
+                <option value="2000">2000</option>
+                <option value="1000">1000</option>
+                <option value="3000">3000</option>
+              </select>
+            </div>
+
 
           </div>
+
+
+
+          <div class="alineacion-tres-columnas">
+
+          
+            <div class="tres-columnas">
+              <label for="puertas">Puertas</label>
+              <select class="seleccion" id="puertas">
+                <option value="">Seleccione</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+              </select>
+            </div>
+
+            <div class="tres-columnas">
+              <label for="transmision">transmision</label>
+              <select class="seleccion" id="transmision">
+                <option value="">Seleccione</option>
+                <option value="manual">manual</option>
+                <option value="automatica">automatica</option>
+              </select>
+            </div>
+
+            <div class="tres-columnas">
+              <label for="color">Color</label>
+              <select class="seleccion" id="color">
+                <option value="">Seleccione</option>
+                <option value="rojo">rojo</option>
+                <option value="blanco">blanco</option>
+                <option value="azul">azul</option>
+              </select>
+            </div>
+          </div>
+
+
+          <h1 class="resultado">Resultados</h1>
+        <div class="nombre-resultado" id="resultado"></div>
+          
         </form>
+
+        
+
+        <footer>
+          <a href="#">Codigo de wilmer</a>
+        </footer>
 
 
       </div>

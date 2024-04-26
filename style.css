@@ -1,0 +1,135 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #17B8D0;
+    background: linear-gradient(135deg, #17B8D0, #5DE8E6);
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* titulo */
+.titulo{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.contenedor{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.formulario{
+    background-color: white;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+label{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+
+/* seleccion */
+.seleccion{
+    
+    padding: 4px;
+    border-radius: 2px;
+    display: block;
+    margin-top: 4px;
+    width: 10rem;
+    }
+
+.seleccion:focus{
+     
+    outline: none; /* Eliminar el contorno de enfoque */
+    box-shadow: none; /* Eliminar la sombra de enfoque */
+
+}
+
+
+/* alineamiento de cuatro columnas */
+
+.row{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+   
+}
+
+/* alineacion-tres-columnas */
+
+.alineacion-tres-columnas{
+    display: flex;
+     justify-content: center; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+/* resultado */
+
+.resultado{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5rem;
+    text-align: center;
+    
+
+}
+
+/* nombre-resultado */
+
+.nombre-resultado{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer */
+
+footer{
+    margin-top: 4rem;
+    padding: 2rem 0;
+}
+
+footer a{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+
+.no-resultado{
+    background-color: red;
+    padding: 10px;
+    border-radius: 4px;
+    color: whitesmoke;
+    font-family:  'Times', serif;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
